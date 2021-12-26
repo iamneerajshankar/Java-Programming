@@ -11,8 +11,8 @@ import java.util.Scanner;
     If the value of is less than 38, no rounding occurs as the result will still be a failing grade.
 Examples
 grade = 84 round to 85(85 - 84 is less than 3)
-do not round (result is less than 40)
-do not round (60 - 57 is 3 or higher) */
+35 do not round (result is less than 40)
+57 do not round (60 - 57 is 3 or higher) */
 
 class Round_up_grade{
     static void round_up_marks(int n, int[] marks){
